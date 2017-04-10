@@ -1,0 +1,27 @@
+{
+  "name": "3D",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-marudor": "^4.2.0",
+    "react-app-rewired": "^0.6.5",
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "cxs": "^3.0.4",
+    "immutable": "^3.8.1",
+    "inline-style-prefixer": "^3.0.2",
+    "react": "^15.5.3",
+    "react-app-rewire-eslint": "^0.2.0",
+    "react-dom": "^15.5.3",
+    "warning": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
